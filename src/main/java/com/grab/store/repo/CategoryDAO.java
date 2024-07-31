@@ -1,5 +1,11 @@
 package com.grab.store.repo;
 
-public interface CategoryDAO {
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.grab.store.model.Cart;
+
+@Repository
+public interface CategoryDAO extends JpaRepository< Cart, Integer>{
 
 }
