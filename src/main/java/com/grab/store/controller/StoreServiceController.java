@@ -55,11 +55,11 @@ public class StoreServiceController {
 		}
 	}
 	
-	@PutMapping("/updateStore/{storeId}")
-	public ResponseEntity<?> updateStore(@RequestBody Store store ,@PathVariable int storeId )
-	{
-		Store 
-	}
+//	@PutMapping("/updateStore/{storeId}")
+//	public ResponseEntity<?> updateStore(@RequestBody Store store ,@PathVariable int storeId )
+//	{
+//		Store 
+//	}
 	
 	
 	
