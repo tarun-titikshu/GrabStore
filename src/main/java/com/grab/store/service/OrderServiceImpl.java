@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class OrderServiceImpl extends OrderDetails {
+public class OrderServiceImpl implements OrderService{
 
     @Autowired
     private OrderDetailsDAO orderDetailsDAO;
